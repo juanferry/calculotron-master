@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::. Calculadora Geometrica</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <script type="text/javascript" src="js/perimetros.js"></script>
+    
+</head>
+<header id="cabecera">CALCULADORA GEOMETRICA</header> 
+
+<body background="images/fondoMatematico.jpg"></body> 
+<nav> 
+  <ul>
+    <a class="active" href="index.html"><i class="fa fa-laptop"></i> INICIO </a>
+    <a href="areas.html"><i class="fa fa-eye"></i> AREA</a>
+    <a href="perimetros.html"><i class="fa fa-eye"></i> PERIMETRO </a>
+           
+      </ul>   
+      <h2>PERIMETRO</h2>
+</nav>
+<br>
+
+<br> 
+<H3>Rectangulo</H3>
+<section id="central">
+        <label>Base del Rectangulo:</label>
+        <input type="number" id="cajaBase" placeholder="Valor númerico"><br><br>
+        <label >Altura del Rectangulo:</label>
+        <input type="number" id="cajaAltura"  placeholder="Valor númerico"><br><br>
+        <label >Perimetro Calculado :</label>
+        <input type="number" id="cajaSalida2"  placeholder="Resultado"><br><br>
+
+        <button onclick="perimetroRectangulo()">Calcular</button>
+</section>   
+<br>
+<h3>Cuadrado</h3>
+<section id="central">
+    <label>Lado del Cuadrado:</label>
+    <input type="number" id="cajaLado" placeholder="Valor númerico"><br><br>
+    <label >Perimetro Calculado :</label>
+    <input type="number" id="cajaSalida4"  placeholder="Resultado"><br><br>
+
+    <button onclick="perimetroCuadrado()">Calcular</button>
+</section>  
+<br>
+<h3>Triangulo</h3>
+<section id="central">
+    <label>Base del triangulo:</label>
+    <input type="number" id="cajaBase2" placeholder="Valor númerico"><br><br>
+    <label >Lado A del triangulo:</label>
+    <input type="number" id="cajalado1"  placeholder="Valor númerico"><br><br>
+    <label >Lado B del triangulo:</label>
+    <input type="number" id="cajalado2"  placeholder="Valor númerico"><br><br>
+    <label >Perimetro Calculado :</label>
+    <input type="number" id="cajaSalida5"  placeholder="Resultado"><br><br>
+
+
+   
+
+    <button onclick="perimetrotriangulo()">Calcular</button><br>
+
+    <h3>Circulo</h3>
+    <section id="central">
+        <label>Radio del circulo:</label>
+        <input type="number" id="cajaradio" placeholder="Valor númerico"><br><br>    
+        <label >Perimetro Calculado :</label>
+        <input type="number" id="cajaSalida7"  placeholder="Resultado"><br><br>
+    
+    
+       
+    
+        <button onclick="perimetroCirculo()">Calcular</button><br>
+
+
+
+
+</section> 
+
+
+<footer>
+    TÉCNICO EN SISTEMAS - INANDINA
+</footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+
+
+body
+{
+   
+    background-color: rgb(215, 215, 250);
+    opacity: 0.9;
+    width: 80%; 
+    margin: auto;
+    padding: 10px;
+}
+header{
+    font-family: fantasy;
+    color:whitesmoke;
+    font-size:25px;
+    background-color:darkslategray;
+    text-align: center;
+    height:auto;
+}
+footer{
+    font-family: fantasy;
+    color:whitesmoke;
+    font-size:25px;
+    background-color:darkslategray;
+    text-align: center;
+    height:auto;
+}
